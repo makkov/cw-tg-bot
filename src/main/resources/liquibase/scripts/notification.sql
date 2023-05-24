@@ -1,6 +1,10 @@
 -- — liquibase formatted sql
 -- changeset makkov:1
 
+create sequence hibernate_sequence;
+
+-- changeset makkov:2
+
 create table notification
 (
     id        bigint not null
